@@ -1,4 +1,4 @@
-# Lofilm_serving
+# Yue_Music_serving
 
 - [ ] Hugging face serving
 - [ ] Serving된 모델 AWS에서 훈련 및 모니터링
