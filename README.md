@@ -7,5 +7,5 @@
 docker build -t docker.io/
 docker push docker.io/
 
-# Curl 요청
+# Curl 요청(HF)
 curl -X POST "https:// /predict"   -H "Authorization: Bearer hf_"   -F "genre_txt=@genre.txt"   -F "lyrics_txt=@lyrics.txt" -o result.mp3
