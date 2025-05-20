@@ -2,6 +2,7 @@
 
 - [x] Hugging face serving
 - [x] Docker push 할 때 sudo 없애기
+- [ ] Vertex에는 /health 꼭 넣어야 함
 
 # 도커 빌드 및 푸시
 docker build -t docker.io/
