@@ -11,5 +11,6 @@ docker push docker.io/
 # Curl 요청(HF)
 curl -X POST "https:// /predict"   -H "Authorization: Bearer hf_"   -F "genre_txt=@genre.txt"   -F "lyrics_txt=@lyrics.txt" -o result.mp3
 
-(로컬) curl -X POST http://localhost:8080/predict -F "genre_txt=@genre.txt" -F "lyrics_txt=@lyrics.txt" -o result.mp3
+(로컬) curl -X POST http://localhost:8080/predict -F "genre_txt=@genre.txt" -F "lyrics_txt=@lyrics.txt" -o result.mp3 (이때, docker run 먼저)
+(docker run --rm -p 8080:8080 us-central1-docker.pkg.dev/wornjs4724/dlwowlb/infer-container_rm_vocal_vertex_noflash:latest)
 
